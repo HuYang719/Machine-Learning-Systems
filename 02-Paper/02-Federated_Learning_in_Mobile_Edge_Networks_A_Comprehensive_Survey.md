@@ -1,6 +1,19 @@
 ## Summary
 
+### Issues
 
+- Statistical challenges
+- Communication costs
+- Resource allocation
+- Privacy and security
+
+
+
+### Characteristics
+
+- Slow and unstable communication
+- Heterogeneous Devices
+- Privacy and security Concerns
 
 ## Ideas
 
