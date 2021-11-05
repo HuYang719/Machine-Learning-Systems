@@ -15,9 +15,28 @@
 - Heterogeneous Devices
 - Privacy and security Concerns
 
+
+
+### Method
+
+- Increase computation
+- Model Compression (need more reading)
+- Importance-based Updating
+
+
+
+## Reading List
+
+- HierFAVG
+- 
+
+
+
 ## Ideas
 
 multimodel with Federated Learning: focus on heterogeneous data
+
+Knowledge Generation
 
 
 
