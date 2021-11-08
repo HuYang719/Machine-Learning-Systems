@@ -10,6 +10,7 @@
 
 - Participant Selection
   - Avoid straggler
+  - Heterogeneity: energy, willingness to participate, quality of data, communicaiton and computation
   - RL is used in selecting partitionment 
   - Fairness for selection (the variance of performance of an FL model across participants)
 - Joint Radio and Computation Resource management
