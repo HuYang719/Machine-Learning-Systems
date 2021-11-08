@@ -2,10 +2,27 @@
 
 ### Issues
 
-- Statistical challenges
-- Communication costs
-- Resource allocation
-- Privacy and security
+#### Statistical challenges
+
+#### Communication costs
+
+#### Resource allocation
+
+- Participant Selection
+  - Avoid straggler
+  - RL is used in selecting partitionment 
+  - Fairness for selection (the variance of performance of an FL model across participants)
+- Joint Radio and Computation Resource management
+- Adaptive Aggregation
+  - FedAvg: synchronous method, susceptible to the straggler effect
+  - Asynchronous model is proposed to improve the scalability and efficiency of FL
+  - Empirically effective but convergence is slow
+- Incentive Mechanism
+  - Incentivize participation 
+  - Reduce the potential adverse impacts of information asymmetry
+- ![image-20211108134759568](./images/image-20211108134759568.png)
+
+#### Privacy and security
 
 
 
@@ -28,6 +45,7 @@
 ## Reading List
 
 - HierFAVG
+- RL for resource management:  https://arxiv.org/pdf/1812.03633.pdf
 - 
 
 
