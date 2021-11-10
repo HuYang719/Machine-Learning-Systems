@@ -25,7 +25,22 @@
 
 #### Privacy and security
 
+##### Privacy
 
+- Differential privacy-based protection solutions
+
+- Collaborative training solutions
+- Encryption-based Solutions
+
+
+
+##### Security
+
+Malicious Participant
+
+- Data poisoning Attacks
+- Model Poisoning Attacks
+- Free-Riding Attacks
 
 ### Characteristics
 
