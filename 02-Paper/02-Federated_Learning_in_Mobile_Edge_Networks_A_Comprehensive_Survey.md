@@ -42,6 +42,17 @@ Malicious Participant
 - Model Poisoning Attacks
 - Free-Riding Attacks
 
+
+
+#### Applications of Federated Learning for Mobile Edge Computing
+
+- Cyberattack Detection: cyberattack detection models can be learned collaboratively while meataining user privacy
+- Edge Caching and Computation Offloading: an optimal caching and computation offloading scheme can be collaboratively learned and optimized with FL
+- Base Station Association: ? Optimize base station association so as to limit interference faced by users
+- Vehicular Networks: traffic queue length prediction and energy demand in electtric vehicle charging stations 
+
+
+
 ### Characteristics
 
 - Slow and unstable communication
