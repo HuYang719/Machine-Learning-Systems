@@ -8,6 +8,8 @@ Cross-silo federated learning: clients are different organizations (e.g. medical
 
 Communication is a typically a hub-and-spoke topology
 
+Feature partitioning: same custom but different feature (finacial and health)
+
 
 
 #### A Typical Federated Training Process
@@ -34,11 +36,21 @@ Answer: In practice, a blockchain is a distributed ledger and sutiable for this 
 
 
 
+#### Split Learning
 
+> Split Learning: split the execution of a model on a per-layer basis between the clients and the server. The outputs at the cut layer is smashed data/
+
+NoPeek SplitNN [462] reduces the potential leakage via communicated activations, by reducing their distance correlation with the raw data.
 
 ## Reading List
 
-MATCHA [469]: 
+MATCHA [469]
 
 Bonawtiz et al. [80]
+
+Federated transfer learning [490]
+
+Compare communication requirements of SL and FL [421]
+
+Multimodel : 
 
