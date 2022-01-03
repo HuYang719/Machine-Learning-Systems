@@ -42,6 +42,38 @@ Answer: In practice, a blockchain is a distributed ledger and sutiable for this 
 
 NoPeek SplitNN [462] reduces the potential leakage via communicated activations, by reducing their distance correlation with the raw data.
 
+
+
+## Key Problems
+
+
+
+#### Non-IID 
+
+Client heterogeneity
+
+- Feature distribution skew (Covariate shift): write the same words with different width , slant, etc
+- Label distribution skew (prior probability shift): certain emoji are used by one demographic but not others
+- Same label, different features (concept drift)
+- Same features, different label (concept shift)
+- Quantity skew or unbalancedness 
+
+> When the same features map to different labels on different clients, some form of personalization may be essential to learning the true labeling functions.
+
+Dataset shift.
+
+Strategies for Non-IID Data:
+
+1.  Change the optimization algorithm;
+
+2. Data augment: use a small dataset which can be shared globally.
+
+3. Decide the weight of clients
+
+4. Train a customized model instead of  a single global model can turn the non-IID problem from a bug to a feature
+
+   Comments: but how to evaluate a customized model is another problem, since every client has limited data
+
 ## Reading List
 
 MATCHA [469]
