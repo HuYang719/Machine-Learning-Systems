@@ -23,3 +23,7 @@
 | Python Custom   | Test set: Average loss: 0.0334, Accuracy: 9890/10000 (99%)<br/><br/>python mnist_custom_linear.py  468.49s |
 | Cpp Custom      | Test set: Average loss: 0.0334, Accuracy: 9890/10000 (99%)<br/><br/>python mnist_custom_linear_cpp.py  456.92s |
 
+
+
+## Additional Experiments
+
