@@ -74,6 +74,18 @@ Strategies for Non-IID Data:
 
    Comments: but how to evaluate a customized model is another problem, since every client has limited data
 
+
+
+**Optimization Algorithm and Effects on non-IID Datasets**
+
+Start from IID Data.
+
+Asynchronous update can reduce the straggler effects, but it is difficult to anlysis error convergence and combine with complimentary techniques like differential privacy or secure aggregation. 
+
+The IID case analysis technique can be extended to the non-IID case by adding an assumption on data dissimilarities (e.g. constraining the difference between client gradients and the global gradient)
+
+In order to achieve the rate of the 1/sqrt(TKN) convergence rate, the number of local updates K should be smaller than T^{1/3}/N.
+
 ## Reading List
 
 MATCHA [469]
