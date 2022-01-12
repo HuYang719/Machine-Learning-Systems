@@ -86,7 +86,43 @@ The IID case analysis technique can be extended to the non-IID case by adding an
 
 In order to achieve the rate of the 1/sqrt(TKN) convergence rate, the number of local updates K should be smaller than T^{1/3}/N.
 
+
+
+#### Multi-Task Learning, Personalization, and Meta-Learning
+
+**We note that personalization has also been studied in the fully decentralized setting [459, 59, 504, 19], where training individual models is particularly natural**
+
+
+
+Although different models can give personalization, a global model with suitably featurized also can achieve similar results. The challenge is that need auxiliary features (context, user feature) and few public datasets contain these.
+
+
+
+**Multi-Task Learning**: if we consider different client (with local dataset) as a different task, it is similar to multi-task learning. MOCHA algorithm for multi-task federated learning, tackling challenges of communication efficiency, stragglers, and fault tolerance. Task could be a subset of the clients (based on geographic region, characteristics of the device or user, or relationship).
+
+
+
+**Meta-Learning**: Study personalization and non-IID data. 
+
+
+
+#### Adapting ML Workflows for Federated Learning
+
+
+
+#### Communication and Compression
+
+
+
 ## Reading List
+
+Fully Decentralized Joint Learning Personalized Models and Collaboration Graphs [504]
+
+MOCHA [424]
+
+FD [248, 368, 402]
+
+Communicaiton Efficiency [282]
 
 MATCHA [469]
 
