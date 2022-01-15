@@ -6,3 +6,6 @@
   - The downside of this approach is that the 
 - Encompass
   - This encompasses a myriad of possible approaches, including: developing better optimization algorithms; providing different models to different clients; making ML tasks like hyperparameter search, architecture search, and debugging easier in the FL context; imprving communication efficiency; and more.
+- On the downside
+  - 负面因素
+  - On the downside, however, the information on a single worker only reaches its two adjacent neighbors in one round of communication
