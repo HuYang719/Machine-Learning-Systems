@@ -9,3 +9,7 @@
 - On the downside
   - 负面因素
   - On the downside, however, the information on a single worker only reaches its two adjacent neighbors in one round of communication
+- We **theoretically** prove that ... attains a similar convergence rate as FedAbg, and **empirically** show that our algorithm can tolerate high network latency without compromising accuracy. 
+- This **dwarfs** the performance of federated systems and slows the development of related applications
+- 
+
