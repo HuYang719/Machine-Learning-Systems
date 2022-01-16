@@ -1,4 +1,39 @@
+## Distributed Stochastic Gradient Descent
 
+- Gradient Aggregation
+- Model Aggregation
+- Global Model Replica
+
+When model size = gradient size, they have communication cost:
+$$
+2Nt_{latency} + 2t_{transfer}
+$$
+When model size != gradient size:
+
+- Gradient Aggregation (AllReduce):
+
+  - $$
+    2Nt_{latency} + 2t^{(grad)}_{transfer}
+    $$
+
+- Model Aggregation (AllReduce):
+
+  - $$
+    2Nt_{latency} + 2t^{(model)}_{transfer}
+    $$
+
+- Global Model Replica (multi-server PS):
+
+  - $$
+    2Nt_{latency} + t^{(model)}_{transfer}+t^{(grad)}_{transfer}
+    $$
+
+
+
+**Different types of system relaxations might be more suitable to be applied to different implementations**
+
+- The lossy qunatization technique applied to gradient aggregation and model aggreation lead to different convergence behavior
+- Decentralized relaxation might not work at all if one uses gradient aggregation
 
 ## System Relaxation 3: Decentralized Communication
 
