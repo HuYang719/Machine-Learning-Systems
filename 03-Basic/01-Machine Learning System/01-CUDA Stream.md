@@ -26,6 +26,22 @@ At its core are three key abstractions:
 
 **Comment:** Kernel is the "function" in CUDA and will be called multiple times in parallel, but executed in different CUDA threads. You write kernel, kernel is for a thread, thread will run on core. SM consists of multiple cores (different GPU version has different cores/SM).
 
+#### Programming Model
+
+> Each thread that executes the kernel is given a unique thread ID that is accessible within the kernel through built-in variables.
+
+
+
+> There is a limit to the number of threads per block, since all threads of a block are expected to reside on the same processor core and must share the limited memory resources of that core. On current GPUs, a thread block may contain up to 1024 threads.
+
+#### Memory Hierarchy
+
+> Each thread has private local memory. Each thread block has shared memory visible to all threads of the block and with the same lifetime as the block. All threads have access to the same global memory.
+
+![Memory Hierarchy.](../images/memory-hierarchy.png)
+
+
+
 ## Pytorch with CUDA Stream
 
 https://pytorch.org/docs/stable/notes/cuda.html#stream-semantics-of-backward-passes
