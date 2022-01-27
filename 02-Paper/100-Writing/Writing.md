@@ -13,3 +13,4 @@
 - This **dwarfs** the performance of federated systems and slows the development of related applications
 - Decentralized computational methods are distributed computational methods **running** without a centralized server.
 
+Two reviewers focused on the static nature of the partitioning method. It seems like this new paper in IEEE access addresses this. Perhaps we need to think about how to expand our work to support dynamic partitioning. Isn't that a goal in any case?
