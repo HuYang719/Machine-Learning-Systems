@@ -10,6 +10,10 @@ PipeDream solve for async but in practice, sync is important for convergence
 
 Pivot stage: the stage with the least bubble overhead
 
+The key idea of pivot stage is to find the bottlenect (cannot be optimized) stage for pipeline parallelism
+
+Include communication as a stage and also follows the equation (1)
+
 
 
 ## Experiments
@@ -31,6 +35,10 @@ Pivot stage: the stage with the least bubble overhead
    T_s = (M-1)(F_Q+B_Q)
    $$
    
+
+2. Two problems are very interesting:
+   1. low bandwidth and high latency, how the pipeline changed
+   2. When the network becomes dynamic, how to cope? 
 
 #### Evaluation (Novelty, Effective, Problem Size )
 
