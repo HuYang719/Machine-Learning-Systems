@@ -35,6 +35,13 @@ When the synchronization barrier is met, exchange with the neighbors and average
 
 ## My Comments
 
+#### Questions
+1. How does the degree of network topology affect the system performance? The whole experiments are based on ring toplogy, but without verification on more complex network.
+
+For convergence rate, better connectivity will lower the upperbound, which is good for convergence. But for communicaiton part, that will cause more transmit traffic (increase the degree(network)), which seems a tradeoff. 
+
+
+
 #### Evaluation (Novelty, Effective, Problem Size )
 
 #### What I can Learn
