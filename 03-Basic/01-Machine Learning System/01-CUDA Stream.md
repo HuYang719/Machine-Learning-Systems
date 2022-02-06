@@ -16,7 +16,7 @@ At its core are three key abstractions:
 
 ![Automatic Scalability.](../images/automatic-scalability.png)
 
-
+The  Streaming Multiprocessors (SM) can run multiple concurrent thread blocks, which suggests it is better to leverage multiple block to max the computation capability.
 
 >  A GPU is built around an array of Streaming Multiprocessors (SMs) (see [Hardware Implementation](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#hardware-implementation) for more details). A multithreaded program is partitioned into blocks of threads that execute independently from each other, so that a GPU with more multiprocessors will automatically execute the program in less time than a GPU with fewer multiprocessors.
 
